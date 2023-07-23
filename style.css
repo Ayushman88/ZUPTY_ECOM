@@ -6,3 +6,35 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: whitesmoke;
+    box-sizing: 0 5px 15px rgb(0, 0, 0);
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px; 
+}
+
+#navbar a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+
+#navbar a:hover{
+    text-decoration: underline;
+    color: rgb(0, 86, 0);
+}
