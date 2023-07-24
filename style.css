@@ -33,12 +33,25 @@ h4 {
     font-size: 26px;
 }
 
+h6 {
+    font-weight: 700;
+    font-size: 15px;
+}
+
 p {
     font-weight: 400;
     font-size: 16px;
     opacity: 0.7;
 }
 
+/* padding for section */
+
+.section-p1{
+    padding: 40px 80px;
+}
+.section-m1{
+    margin: 40px 0;
+} 
 
 /* header */
 #header{
@@ -122,3 +135,38 @@ p {
     margin-top: 20px;
 }
 
+/* feature section */
+
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.10);
+    border: 1px solid #e7cccc;
+    border-radius: 20px;
+    margin: 15px 0;
+}
+
+#feature .fe-box:hover{
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.20);
+}
+
+#feature .fe-box h6{
+    padding: 9px 8px 10px 8px;
+    line-height: 2px;
+    border-radius: 5px;
+    color: rgb(102, 0, 0);
+    background: #d4c7c7;
+}
+
+#feature .fe-box img{
+    width: 100%;
+    margin-bottom: 10px;
+}
