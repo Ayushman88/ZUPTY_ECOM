@@ -66,6 +66,18 @@ button.normal{
     transition: 0.2s;
 }
 
+button.white{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s;
+}
+
 /* header */
 #header{
     display: flex;
@@ -381,4 +393,65 @@ button.normal{
     position: absolute;
     bottom: 20px;
     right: 20px;
+}
+
+
+/* cta banner {sm-banner} */
+
+#sm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#sm-banner #cta1{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("./images/cta/cta1.png");
+    min-width: 580px;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px;
+    color: white;
+    border-radius: 20px;
+}
+
+#sm-banner #cta2{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("./images/cta/cta2.png");
+    min-width: 580px;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px;
+    color: white;
+    border-radius: 20px;
+}
+
+#sm-banner .banner-box h4{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#sm-banner .banner-box h2{
+    font-size: 28px;
+    font-weight: 800px;
+}
+
+#sm-banner .banner-box span{
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.white:hover{
+    background-color: #207513;
 }
